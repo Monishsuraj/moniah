@@ -1,0 +1,11 @@
+<?php
+$x = 10; $y = 5; 
+ 
+// Code to swap 'x' and 'y' 
+$x = $x + $y;  
+$y = $x - $y;  
+$x = $x - $y;
+ 
+echo "After Swapping: x = ",  
+       $x, "," , "After swapping:y = ", $y;
+?>
